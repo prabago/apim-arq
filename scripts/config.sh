@@ -6,6 +6,6 @@ apictl version
 rm -rf $HOME/.wso2apictl
 
 echo 'setting up dev environment'
-apictl add-env -e local \
+apictl add-env -e local-int \
                     --apim https://localhost:9443 \
                     --token https://localhost:8243/token
